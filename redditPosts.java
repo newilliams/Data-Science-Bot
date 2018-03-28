@@ -6,6 +6,7 @@ public class redditPosts {
 	public int numComments;
 	
 	
+
 	redditPosts(String posts, String authors, int Num){
 		Post = posts;
 		Author = authors;
@@ -18,7 +19,9 @@ public class redditPosts {
 		output += "Author: " + Author + "\n";
 		output += "Their Post: "+ Post + "\n";
 		output += "Number of Comments:  " + numComments + "\n";
+
 		
+
 		return output;
 		
 	}
