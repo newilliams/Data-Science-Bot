@@ -34,7 +34,7 @@ public class DataBotTester {
 			DB.sortedObjectsAscending();
 			System.out.println("Enter a number from 0 - 500");
 			num = keyboard.nextInt();
-			if (num > 500) {
+			while (num > 500) {
 				System.out.println("Please enter a number from 0 - 500");
 				num = keyboard.nextInt();		
 			}
@@ -47,7 +47,7 @@ public class DataBotTester {
 		DB.sortedObjectsDescending();
 		 System.out.println("Enter a number from 0 - 500");
 			num1 = keyboard.nextInt();
-			if (num1 > 500) {
+			while (num1 > 500) {
 				System.out.println("Please enter a number from 0 - 500");
 				num1 = keyboard.nextInt();		
 			}
